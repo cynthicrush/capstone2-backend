@@ -1,0 +1,54 @@
+{
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "$id": "http://example.com/example.json",
+    "title": "Root Schema",
+    "type": "object",
+    "default": {},
+    
+    "required": [
+        "title",
+        "description",
+        "price",
+        "image"
+    ],
+    "properties": {
+        "title": {
+            "title": "The title Schema",
+            "type": "string",
+            "default": "",
+            "examples": [
+                "Spicy Chicken"
+            ]
+        },
+        "description": {
+            "title": "The description Schema",
+            "type": "string",
+            "default": "",
+            "examples": [
+                "Deep-fired fresh chicken pieces, chili peppers, garlic with Szechuan pepper."
+            ]
+        },
+        "price": {
+            "title": "The price Schema",
+            "type": "number",
+            "default": 0.0,
+            "examples": [
+                16.99
+            ]
+        },
+        "image": {
+            "title": "The image Schema",
+            "type": "string",
+            "default": "",
+            "examples": [
+                "https://asianfoodnetwork.com/content/dam/afn/global/en/recipes/sze-chuan-spicy-chicken/AFN_szechuan_spicy_chicken_main_image.jpg.transform/recipestep-img/img.jpg"
+            ]
+        }
+    },
+    "examples": [{
+        "title": "Spicy Chicken",
+        "description": "Deep-fired fresh chicken pieces, chili peppers, garlic with Szechuan pepper.",
+        "price": 16.99,
+        "image": "https://asianfoodnetwork.com/content/dam/afn/global/en/recipes/sze-chuan-spicy-chicken/AFN_szechuan_spicy_chicken_main_image.jpg.transform/recipestep-img/img.jpg"
+    }]
+}

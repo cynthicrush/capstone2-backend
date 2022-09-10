@@ -1,0 +1,63 @@
+INSERT INTO users (username, email, password, first_name, last_name, is_admin)
+VALUES ('Admin',
+        'admin@email.com',
+        '$2b$12$AZH7virni5jlTTiGgEg4zu3lSvAw68qVEfSIOjJ3RqtbJbdW/Oi5q',
+        'Admin',
+        'One',
+        TRUE
+       ), (
+        'Test User',
+        'testuser@email.com',
+        '$2b$12$AZH7virni5jlTTiGgEg4zu3lSvAw68qVEfSIOjJ3RqtbJbdW/Oi5q',
+        'Test',
+        'User',
+        FALSE
+       );
+
+INSERT INTO dishes (id, title, description, price, dish_url)
+VALUES 
+        (1, 'Banana Pancake', 'Fresh bananas, cheese with some sesame seeds.', 9.99, '../dish-pics/banana-pancake.jpg'),
+        (2, 'Beef Glass Noodles Stew', 'Sliced beef, glass noodles, an egg, spicy sausage with some green onions on top. Serves in a hot stone bowl.', 22.99, '../dish-pics/beef-glass-noodle-stew.jpg'),
+        (3, 'Beef Ribs', 'Fresh beef ribs with homemade sweet sauce fried on a hot pan.', 16, '../dish-pics/beef-ribs.jpg'),
+        (4, 'Beef Sirloin', 'Beef sirloin, baby bamboo shoots with dried chill pepper.', 25, '../dish-pics/beef-sirloin.jpg'),
+        (5, 'Bok-choy Glass Noodles', 'Bak-choy, glass noodles, cilantro, peanuts and sesame seeds with fresh pork broth.', 10.39, '../dish-pics/bok-choy-glass-noodles.jpg'),
+        (6, 'Chicken Feet', 'Chicken feet, onions, garlic, lemons, cilantro, and chilli pepper. Refreshing and cool taste', 7.33, '../dish-pics/chicken-feet.jpg'),
+        (7, 'Crawfish', 'Fresh caught live crawfish, giginer, chilli paste, and boild with beer.', 29.43, '../dish-pics/crawfish.jpg'),
+        (8, 'Dumplings', '12 dumplings with pork, Chineese chives.', 11.63, '../dish-pics/dumplings.jpg'),
+        (9, 'Egg Tofu', 'Egg aroud tofu pieces, red pepper, green onions, and garlic.', 12, '../dish-pics/egg-tofu.jpg'),
+        (10, 'Eggplant', 'Eggplant, ginger, garlic, and green onions.', 11.21, '../dish-pics/eggplant.jpg'),
+        (11, 'Fruity Cake', '11 inches fresh made vanilla choffon cake with stawberries, oranges and boiled suger.', 37.82, '../dish-pics/fruity-cake.jpg'),
+        (12, 'Garlic Clams', 'Fresh caught live clams, garlic, green onions, chilli peppers, and dried peppers.', 26, '../dish-pics/garlic-clams.jpg'),
+        (13, 'Fried Rice', 'Sliced pork, fried eggs, and green peppers.', 13, '../dish-pics/fried-rice.jpg'),
+        (14, 'Ginger Chicken', 'Fresh live chicken, ginger, red and green peppers, and garlic.', 23.22, '../dish-pics/ginger-chicken.jpg'),
+        (15, 'Halogen Beef', 'Beef tendon boiled in homemade halogen sauce, serves with homemade dipping sauce.', 18.77, '../dish-pics/halogen-beef.jpg'),
+        (16, 'Hotpot Combo', 'Pork bone broth, sliced thin beef, baby octopus, beef balls, dried beancurd sticks, fungus, bamboo shoots, zucchini, potatoes, and lettuce.', 115.52, '../dish-pics/hotpot-combo.jpg'),
+        (17, 'Octopus', 'Baby octopus, pickled pepper, fresh peppers, cilantro, and ginger.', 15.55, '../dish-pics/octopus.jpg'),
+        (18, 'Pickled Radish', 'Radish, ginger, and chilli peppers pickled in rice vinegar and sugar.', 5.32, '../dish-pics/pickled-radish.jpg'),
+        (19, 'Pork Ears', 'Pork ears, cilantro, garlic, sesame seeds with chilli oil.', 8.07, '../dish-pics/pork-ears.jpg'),
+        (20, 'Pork Feet', 'Pork feet, green pepper, dried chilli pepper, garlic, with sesame seeds on top.', 17.99, '../dish-pics/pork-feet.jpg'),
+        (21, 'Pork Intenstines', 'Pork intenstines, onions, green pepper, dried red pepper.', 16, '../dish-pics/pork-intestines.jpg'),
+        (22, 'Pork Rice Noodle Soup', 'Fresh homemade rice noodles, pork, green pepper, two eggs, pickled chilli peppers, with pork bone broth.', 12.62, '../dish-pics/pork-rice-noodle-soup.jpg'),
+        (23, 'Shrimps', 'Large shrimps, giginer, dried red pepper, green onions.', 17, '../dish-pics/shrimps.jpg'),
+        (24, 'Siu Mai', 'Sticky sweet rice, mushrooms, pork, green onion oil wrapped with dumpling wraps. 5 of them per order.', 4.66, '../dish-pics/siu-mai.jpg'),
+        (25, 'Smoked Beef', 'Smoked beef with dried red pepper.', 15.87, '../dish-pics/smoked-beef.jpg'),
+        (26, 'Smoked Pork with Dried Radish', 'Smoked pork, homemade dried radish, dried red pepper.', 13.93, '../dish-pics/smoked-pork-dried-radish.jpg'),
+        (27, 'Frog Legs', 'Large frog legs, pickled pepper, ginger, perilla leaves.', 19.89, '../dish-pics/frog-legs.jpg'),
+        (28, 'Lotus roots', 'Fresh baby lotus roots, pickled pepper, chilli pepper, green onions.', 11, '../dish-pics/lotus-roots.jpg'),
+        (29, 'Pork Stomach', 'Pork stomach, green and red peppers.', 14.32, '../dish-pics/pork-stomach.jpg'),
+        (30, 'Soy Sauce Eggs', 'Eggs, cilantro, green and red pepper, green and white onions, soaked into soy sauce. 3 of them per order.', 2.33, '../dish-pics/soy-sauce-eggs.jpg'),
+        (31, 'Fried Fish', 'Deep fried hairtail, green onions, garlic, dried red pepper.', 15, '../dish-pics/fried-fish.jpg'),
+        (32, 'Hunan Pork', 'Pork, peppers, garlic, green onions.', 13.77, '../dish-pics/hunan-pork.jpg'),
+        (33, 'Snow Crab Legs', 'Snow crab legs, homemade seasoning.', 45.63, '../dish-pics/snow-crab-legs.jpg'),
+        (34, 'Soybeans', 'Soybeans, garlic, dried red pepper.', 6.77, '../dish-pics/soybeans.jpg'),
+        (35, 'Squid', 'Squid, garlic leaves, chilli peppers.', 15, '../dish-pics/squid.jpg'),
+        (36, 'Steamed fish', 'Steamed sea bass, homemade sauce.', 14.13, '../dish-pics/steamed-fish.jpg'),
+        (37, 'Sweet Cold Noodles', 'Ramen noodles, cucumbers, veggies, an egg with Sprite sauce.', 8, '../dish-pics/sweet-cold-noodles.jpg'),
+        (38, 'Sweet Crispy Baba', 'Sweet rice dough deep fried in suger oil. 6 of them per order.', 7.11, '../dish-pics/sweet-crispy-baba.jpg'),
+        (39, 'Sweet Rice Wine', 'Homemade brewed sweet rice wine with Goji berries on top.', 3, '../dish-pics/sweet-rice-wine.jpg'),
+        (40, 'Sweet Sour Ribs', 'Pork ribs fried with sugar and vinegar.', 14, '../dish-pics/sweet-sour-ribs.jpg'),
+        (41, 'Toasted Squid', 'Large Squid, toasted with homemade seasoning.', 11.42, '../dish-pics/toasted-squid.jpg'),
+        (42, 'White Guard', 'Chinese white guard, chilli peppers, green oions.', 8, '../dish-pics/white-guard.jpg');
+        -- (43, 'title', 'descriptions.', 0, '../dish-pics/url.jpg'),
+
+-- INSERT INTO orders(username, dish_id)      
