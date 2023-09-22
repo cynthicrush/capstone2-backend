@@ -5,8 +5,8 @@ const PORT = +process.env.PORT || 3001;
 
 function getDatabaseUrl() {
     return(process.env.NODE_ENV === 'test')
-        ? 'jens_kitchen_test'
-        : process.env.DATABASE_URL || 'jens_kitchen'
+        ? 'postgresql:///jens_kitchen_test'
+        : process.env.DATABASE_URL || 'postgresql:///jens_kitchen'
 }
 
 const BCRYPT_WORK_FACTOR = process.env.NODE_ENV === 'test' ? 1 : 12
